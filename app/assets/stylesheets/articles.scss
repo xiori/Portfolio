@@ -1,0 +1,91 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.project .project-grid {
+    padding: 2rem 0 4rem;
+}
+
+
+/*image project*/
+.content-projet {
+    position: relative;
+}
+
+.content-projet:hover .content-overlay {
+    opacity: 1;
+    background: rgba(0,0,0,0.7);
+    
+}
+
+.content-details {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.content-projet:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+.fadeIn-top{
+    top: 20%;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*
+  .content {
+    position: relative;
+}
+
+.content:hover .content-overlay {
+    opacity: 1;
+    background: rgba(0,0,0,0.7);
+}
+
+.content-details {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+.fadeIn-top{
+    top: 20%;
+  }
+  */
