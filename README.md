@@ -16,3 +16,4 @@ rails s
 ```
 pour faire fonctionner le projet
 merci
+status
